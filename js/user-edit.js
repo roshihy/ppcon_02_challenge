@@ -38,8 +38,8 @@ $(function() {
 		if(!mondai5){
 			$("h2").each(function(){
 				$(this).text("【" + $(this).text() + "】");
-				mondai5 = true;
 			});
+			mondai5 = true;
 		}
 	});
 });
